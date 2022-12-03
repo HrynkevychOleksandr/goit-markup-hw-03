@@ -1,0 +1,177 @@
+:root {
+	--primery-text-color-slate: #434455;
+	--primery-white-color: #ffffff;
+	--text-color-iris: #4d5ae5;
+	--text-color-navyblue: #2e2f42;
+	--text-color-cloud: #f4f4fd;
+	--text-color-cornflower: #e7e9fc;
+}
+body {
+	font-family: "Roboto", sans-serif;
+	letter-spacing: 0.02em;
+	background-color: var(--primery-white-color);
+	color: var(--primery-text-color-slate);
+}
+/* Заголовки font-weight: 700 */
+h1,
+h2,
+h3 {
+	font-weight: 700;
+	color: var(--text-color-navyblue);
+}
+/* прибирання маркерів у списках */
+ul {
+	list-style: none;
+}
+/* header */
+/* прибирання підкреслення */
+a {
+	text-decoration: none;
+}
+button {
+	cursor: pointer;
+}
+/* logo */
+.logo {
+	font-family: "Raleway", sans-serif;
+	font-weight: 800;
+	font-size: 18px;
+	line-height: 1.33;
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+}
+.logo-iris {
+	color: var(--text-color-iris);
+}
+.logo-navyblue {
+	color: var(--text-color-navyblue);
+}
+/* site-nav */
+.site-nav,
+.cont-nav {
+	font-size: 16px;
+	line-height: 1.5;
+}
+.site-nav {
+	font-weight: 700;
+}
+.site-nav .link {
+	color: var(--text-color-navyblue);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+	color: var(--primery-text-color-slate);
+}
+.site-nav .link.current {
+	color: var(--text-color-iris);
+}
+/* cont-nav */
+.cont-nav .link {
+	color: var(--primery-text-color-slate);
+}
+.cont-nav .link:hover,
+.cont-nav .link:focus {
+	color: var(--text-color-iris);
+}
+/* hero */
+.hero {
+	background-color: var(--text-color-navyblue);
+}
+.hero-title {
+	font-size: 56px;
+	line-height: 1.07;
+	text-align: center;
+	color: var(--primery-white-color);
+}
+.hero-button {
+	font-family: "Roboto", sans-serif;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.19;
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.04em;
+	color: var(--primery-white-color);
+	background-color: var(--text-color-iris);
+}
+.hero-button:hover,
+.hero-button:focus {
+   background-color: #404BBF;
+}
+
+/* section */
+/* Приховування заголовка "Секція1" та "Portfolio" */
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+}
+section p {
+	font-size: 16px;
+	line-height: 1.5;
+}
+.section3 {
+    background-color: var(--text-color-cloud);
+}
+.section-ul {
+    background-color: var(--primery-white-color);
+}
+.section1-title {
+	font-size: 20px;
+	line-height: 1.2;
+}
+.section-title {
+	font-size: 36px;
+	line-height: 1.11;
+	text-align: center;
+	text-transform: capitalize;
+}
+.section3-title {
+	font-size: 20px;
+	line-height: 1.2;
+	/* text-align: center; - поставити в центрі блоку */
+}
+/* Portfolio */
+/* Блок фільтрів */
+.portfolio-button {
+	font-family: "Roboto", sans-serif;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.5;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	letter-spacing: 0.04em;
+	color: var(--text-color-iris);
+	background: var(--text-color-cloud);
+}
+.portfolio-button:hover,
+.portfolio-button:focus {
+	color: var(--primery-white-color);
+	background: var(--text-color-iris);
+}
+/* Блок портфоліо */
+.section4-title {
+	font-size: 20px;
+	line-height: 1.2;
+	color: var(--text-color-navyblue);
+}
+/* footer */
+footer {
+	background-color: var(--text-color-navyblue);
+}
+.logo-cloud {
+	color: var(--text-color-cloud);
+}
+.footer {
+	font-size: 16px;
+	line-height: 1.5;
+	color: var(--text-color-cornflower);
+}
