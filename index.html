@@ -1,146 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./css/styles.css" />
-  </head>
-  <body>
-    <!-- Шапка сторінки -->
-    <header>
-      <nav>
-        <!-- Логотип у шапці -->
-        <a href="./index.html" class="logo">
-          <span class="logo-iris">Web</span>
-          <span class="logo-navyblue">Studio</span>
-        </a>
-        <!-- Навігація на інші сторінки -->
-        <ul class="site-nav list">
-          <li><a href="./index.html" class="link current">Studio</a></li>
-          <li><a href="./portfolio.html" class="link">Portfolio</a></li>
-          <li><a href="./index.html" class="link">Contacts</a></li>
-        </ul>
-      </nav>
-      <ul class="cont-nav list">
-        <!-- Посилання на адрес пошти-->
-        <li>
-          <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
-        </li>
-        <!-- Посилання на телефонний номер-->
-        <li>
-          <a href="tel:+110001111111" class="link">+11 (000) 111-11-11</a>
-        </li>
-      </ul>
-    </header>
-    <main>
-      <!-- Секція hero-->
-      <section class="hero">
-        <h1 class="hero-title">Effective Solutions for Your Business</h1>
-        <button type="button" class="hero-button">Order Service</button>
-      </section>
-      <!-- Секція 1-->
-      <section class="section">
-        <!-- Заголовок секції 1, не читається на сторінці -->
-        <h2 class="visually-hidden">Секція 1</h2>
-        <ul>
-          <li>
-            <h3 class="section1-title">Strategy</h3>
-            <p>
-              Our goal is to identify the business problem to walk away with the
-              perfect and creative solution.
-            </p>
-          </li>
-          <li>
-            <h3 class="section1-title">Punctuality</h3>
-            <p>
-              Bring the key message to the brand's audience for the best price
-              within the shortest possible time.
-            </p>
-          </li>
-          <li>
-            <h3 class="section1-title">Diligence</h3>
-            <p>Research and confirm brands that present the strongest digital growth opportunities and minimize risk.</p>
-          </li>
-          <li>
-            <h3 class="section1-title">Technologies</h3>
-            <p>
-              Design practice focused on digital experiences. We bring forth deep passion for problem-solving.
-            </p>
-          </li>
-        </ul>
-      </section>
-      <!-- Секція 2-->
-      <section class="section">
-        <h2 class="section-title">What are we doing</h2>
-        <ul>
-          <li>
-            <img
-              src="./images/Rectangle711.jpg"
-              alt="Rectangle 711"
-              width="360"
-            />
-          </li>
-          <li>
-            <img
-              src="./images/Rectangle712.jpg"
-              alt="Rectangle 712"
-              width="360"
-            />
-          </li>
-          <li>
-            <img
-              src="./images/Rectangle713.jpg"
-              alt="Rectangle 713"
-              width="360"
-            />
-          </li>
-        </ul>
-      </section>
-      <!-- Секція 3-->
-      <section class="section3">
-        <h2 class="section-title">Our Team</h2>
-        <ul>
-          <li class="section-ul">
-            <img src="./images/img1.jpg" alt="foto Mark" width="264" />
-            <h3 class="section3-title">Mark Guerrero</h3>
-            <p>Product Designer</p>
-          </li>
-          <li class="section-ul">
-            <img src="./images/img2.jpg" alt="foto Tom" width="264" />
-            <h3 class="section3-title">Tom Ford</h3>
-            <p>Frontend Developer</p>
-          </li>
-          <li class="section-ul">
-            <img src="./images/img3.jpg" alt="foto Camila" width="264" />
-            <h3 class="section3-title">Camila Garcia</h3>
-            <p>Marketing</p>
-          </li>
-          <li class="section-ul">
-            <img src="./images/img4.jpg" alt="foto Daniel" width="264" />
-            <h3 class="section3-title">Daniel Wilson</h3>
-            <p>UI Designer</p>
-          </li>
-        </ul>
-      </section>
-    </main>
-    <footer>
-      <!-- Логотип як у шапці -->
-      <a href="./index.html" class="logo">
-        <span class="logo-iris">Web</span>
-        <span class="logo-cloud">Studio</span>
-      </a>
-      <p class="footer">
-        Increase the flow of customers and sales for your business with digital
-        marketing & growth solutions.
-      </p>
-    </footer>
-  </body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+		/>
+		<link rel="stylesheet" href="./css/styles.css" />
+	</head>
+	<body>
+		<!-- Шапка сторінки -->
+		<header>
+			<div class="container header-nav">
+				<nav class="header-nav">
+					<!-- Логотип у шапці -->
+					<a href="./index.html" class="logo">
+						<span class="logo-iris">Web</span>
+						<span class="logo-navyblue">Studio</span>
+					</a>
+					<!-- Навігація на інші сторінки -->
+					<ul class="site-nav">
+						<li class="item"><a href="./index.html" class="link current">Studio</a></li>
+						<li class="item"><a href="./portfolio.html" class="link">Portfolio</a></li>
+						<li class="item"><a href="./index.html" class="link">Contacts</a></li>
+					</ul>
+				</nav>
+				<ul class="cont-nav">
+					<!-- Посилання на адрес пошти-->
+					<li class="item">
+						<a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
+					</li>
+					<!-- Посилання на телефонний номер-->
+					<li class="item">
+						<a href="tel:+110001111111" class="link">+11 (000) 111-11-11</a>
+					</li>
+				</ul>
+			</div>
+		</header>
+		<main>
+			<!-- Секція hero-->
+			<section class="container hero">
+				<h1 class="hero-title">Effective Solutions for Your Business</h1>
+				<button type="button" class="hero-button">Order Service</button>
+			</section>
+			<!-- Секція 1-->
+			<section class="container section">
+				<!-- Заголовок секції 1, не читається на сторінці -->
+				<h2 class="visually-hidden">Секція 1</h2>
+				<ul class="section1">
+					<li class="section1-li">
+						<div class="sektion1-div">
+							<h3 class="section1-title">Strategy</h3>
+							<p> Our goal is to identify the business problem to walk away with the perfect and creative solution. </p>
+						</div>
+					</li>
+					<li class="section1-li">
+						<div class="sektion1-div">
+							<h3 class="section1-title">Punctuality</h3>
+							<p>
+								Bring the key message to the brand's audience for the best price within the shortest possible time.
+							</p>
+						</div>
+					</li>
+					<li class="section1-li">
+						<div class="sektion1-div">
+							<h3 class="section1-title">Diligence</h3>
+							<p
+								>Research and confirm brands that present the strongest digital growth opportunities and minimize
+								risk.</p
+							>
+						</div>
+					</li>
+					<li class="section1-li">
+            <div class="sektion1-div">
+              <h3 class="section1-title">Technologies</h3>
+              <p> Design practice focused on digital experiences. We bring forth deep passion for problem-solving. </p>
+            </div>
+					</li>
+				</ul>
+			</section>
+			<!-- Секція 2-->
+			<section class="container section">
+				<h2 class="section-title">What are we doing</h2>
+				<ul>
+					<li>
+						<img src="./images/Rectangle711.jpg" alt="Rectangle 711" width="360" />
+					</li>
+					<li class="section1-li">
+						<img src="./images/Rectangle712.jpg" alt="Rectangle 712" width="360" />
+					</li>
+					<li class="section1-li">
+						<img src="./images/Rectangle713.jpg" alt="Rectangle 713" width="360" />
+					</li>
+				</ul>
+			</section>
+			<!-- Секція 3-->
+			<section class="container section3">
+				<h2 class="section-title">Our Team</h2>
+				<ul>
+					<li class="section-ul">
+						<img src="./images/img1.jpg" alt="foto Mark" width="264" />
+						<h3 class="section3-title">Mark Guerrero</h3>
+						<p>Product Designer</p>
+					</li>
+					<li class="section-ul">
+						<img src="./images/img2.jpg" alt="foto Tom" width="264" />
+						<h3 class="section3-title">Tom Ford</h3>
+						<p>Frontend Developer</p>
+					</li>
+					<li class="section-ul">
+						<img src="./images/img3.jpg" alt="foto Camila" width="264" />
+						<h3 class="section3-title">Camila Garcia</h3>
+						<p>Marketing</p>
+					</li>
+					<li class="section-ul">
+						<img src="./images/img4.jpg" alt="foto Daniel" width="264" />
+						<h3 class="section3-title">Daniel Wilson</h3>
+						<p>UI Designer</p>
+					</li>
+				</ul>
+			</section>
+		</main>
+		<footer>
+			<!-- Логотип як у шапці -->
+			<a href="./index.html" class="logo">
+				<span class="logo-iris">Web</span>
+				<span class="logo-cloud">Studio</span>
+			</a>
+			<p class="footer">
+				Increase the flow of customers and sales for your business with digital marketing & growth solutions.
+			</p>
+		</footer>
+	</body>
 </html>
