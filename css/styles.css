@@ -214,15 +214,6 @@ a {
 }
 /* section-3 */
 
-/* .sect-2-ul,
-.sect-3-ul {
-	display: flex;
-	padding-top: 72px;
-	padding-bottom: 120px;
-}
-.sect-2-ul .section1-li + .section1-li {
-	margin-left: 24px;
-} */
 .section-3 {
 	padding-top: 120px;
 	padding-bottom: 120px;
